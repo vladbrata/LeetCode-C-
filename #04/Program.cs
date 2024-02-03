@@ -7,29 +7,32 @@ double median = FindMedianSortedArrays(nums1, nums2);
 
 double FindMedianSortedArrays(int[] nums1, int[] nums2)
 {
-    int[] output = new int[nums1.Length + nums2.Length];
+    int[] output = new int[nums1.Length + nums2.Length]; // the new array's size is equal = sum of the two arrays
 
+    // populates the output array with the values from the first and second arrays
     for (int i = 0; i < nums1.Length; i++) {
         output[i] = nums1[i];
     }
-    int cnt = 0;
     for (int i = nums1.Length; i < output.Length; i++) {
-        output[i] = nums2[cnt];
-        cnt++;
+        int j = 0;
+        output[i] = nums2[j];
+        j++;
     }
 
     Array.Sort(output);
 
-    bool impar = output.Length % 2 != 0;
-    bool par = output.Length % 2 == 0;
+    bool odd = output.Length % 2 != 0;
+    bool even = output.Length % 2 == 0;
     double median = 0;
-    double secondMedian = 0;
-    int index = 0;
 
-    if (impar) {
+    // because the array has a clear middle element
+    if (odd) {
         median = output[(0 + output.Length - 1) / 2];
     }
-    else if (par) {
+    // because it has 2 middle elements
+    else if (even) {
+        int secondMedian;
+        int index;
         index = (0 + output.Length - 1) / 2;
         median = output[index];
         secondMedian = output[index + 1];
