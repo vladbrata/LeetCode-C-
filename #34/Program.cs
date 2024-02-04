@@ -5,6 +5,9 @@
 
 // You must write an algorithm with O(log n) runtime complexity.
 
+int[] nums = {1,3};
+int target = 1;
+int[] result = SearchRange(nums, target);
 
  static int[] SearchRange(int[] nums, int target) 
  {
