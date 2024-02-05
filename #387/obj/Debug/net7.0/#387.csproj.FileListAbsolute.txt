@@ -1,0 +1,14 @@
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\bin\Debug\net7.0\#387.exe
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\bin\Debug\net7.0\#387.deps.json
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\bin\Debug\net7.0\#387.runtimeconfig.json
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\bin\Debug\net7.0\#387.dll
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\bin\Debug\net7.0\#387.pdb
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.AssemblyInfoInputs.cache
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.AssemblyInfo.cs
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.csproj.CoreCompileInputs.cache
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.dll
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\refint\#387.dll
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.pdb
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\#387.genruntimeconfig.cache
+D:\Coding\CSharpProjects\Exerices\LeetCode-cs\#387\obj\Debug\net7.0\ref\#387.dll
