@@ -12,6 +12,7 @@ static int MajorityElement(int[] nums)
     int contender = 0;
     int count;
 
+    // checks each number's frequency until it founds the one appearing more than n / 2 times
     for(int i = 0; i < nums.Length; i++) {
         count = 0;
         contender = nums[i];
